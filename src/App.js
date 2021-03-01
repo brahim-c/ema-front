@@ -26,7 +26,7 @@ function App() {
 
   useEffect(async () => {
     try {
-      const response = await axios.get('http://localhost:8080/api/v1/videos', {
+      const response = await axios.get('http://localhost:8888/api/v1/videos', {
         params: {
           tags,
           level
